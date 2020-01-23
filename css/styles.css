@@ -1,0 +1,125 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#log-img {
+    background: url("../images/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+}
+.kosher { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.nav-item a:hover {
+    background: #E7E7E7;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.nav-link>* {
+    color: rgba(128, 11, 58, 0.94);
+}
+
+.navbar-nav, .navbar-toggler {
+    margin-left: auto;
+}
+
+.telephone {
+   font-size: 1.5em;
+}
+#deliver {
+    text-align: right;
+    margin-top: 0;
+    color: #1c7430;
+}
+/* End of Header **/
+
+
+
+
+/**** Media query responsive design ****/
+/**** Extra Large device only xl >=1200px ****/
+@media (min-width: 1200px) {
+
+}
+
+/**** Large device only 992<=lg<=1199px ****/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #log-img {
+        background: url("../images/restaurant-logo_medium.png") no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    .navbar-nav {
+        margin-top: -60px;
+    }
+
+}
+
+/**** Medium device only 768<=md<=991px ****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        margin-top: -40px;
+    }
+}
+
+/**** Small device only 576<=sm<=767 ****/
+@media (min-width: 576px) and (max-width: 767px) {
+    .material-icons.md-36 {
+        font-size: 30px;
+    }
+    .nav-link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+/**** Extra small device only xs<=575px ****/
+@media (max-width: 575px) {
+    .navbar-brand h1{
+        font-size: 5vw;
+    }
+    .kosher {
+        font-size: 10px;
+    }
+    #kosherimg {
+        width: 17px;
+    }
+
+    .material-icons.md-36 {
+        font-size: 30px;
+    }
+    .nav-link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+
+}
